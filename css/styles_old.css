@@ -1,0 +1,601 @@
+@font-face {
+
+font-family: Rounded;
+
+src: url('../etc/fonts/rounded/rounded.eot') format('embedded-opentype'),
+	 url('../etc/fonts/rounded/rounded.ttf') format('truetype'),
+	 url('../etc/fonts/rounded/rounded.woff') format('woff');
+	 
+}
+
+@font-face {
+	
+	font-family: Scanlines;
+	
+	src: url('../etc/fonts/dbm/dbm.eot') format('embedded-opentype'),
+		 url('../etc/fonts/dbm/dbm.ttf') format('truetype'),
+		 url('../etc/fonts/dbm/dbm.woff') format('woff');
+}
+
+@keyframes grow {
+	
+	from {
+		
+		transform: scale(1);
+		
+	}
+	
+	to {
+		
+		transform: scale(2) rotate(180deg);
+		
+	}
+	
+}
+
+@keyframes spin {
+	
+	from {
+		
+		transform: scale(2) rotate(0deg);
+		
+	}
+	
+	to {
+		
+		transform: scale(2) rotate(360deg);
+		
+	}
+	
+}
+
+@-webkit-keyframes grow {
+	
+	from {
+		
+		-webkit-transform: scale(1);
+			
+	}
+	
+	to {
+		
+		-webkit-transform: scale(2) rotate(180deg);
+		
+	}
+	
+}
+
+@-webkit-keyframes spin {
+	
+	from {
+		
+		-webkit-transform: scale(2) rotate(0deg);
+		
+	}
+	
+	to {
+		
+		-webkit-transform: scale(2) rotate(360deg);
+		
+	}
+	
+}
+
+@-moz-keyframes grow {
+	
+	from {
+		
+		-moz-transform: scale(1);
+		
+	}
+	
+	to {
+		
+		-moz-transform: scale(2) rotate(180deg);
+		
+	}
+	
+}
+
+@-moz-keyframes spin {
+	
+	from {
+		
+		-moz-transform: scale(2) rotate(0deg);
+		
+	}
+	
+	to {
+		
+		-moz-transform: scale(2) rotate(360deg);
+		
+	}
+	
+}
+
+@-ms-keyframes grow {
+	
+	from {
+		
+		-ms-transform: scale(1);
+		
+	}
+	
+	to {
+		
+		-ms-transform: scale(2) rotate(180deg);
+		
+	}
+	
+}
+
+@-ms-keyframes spin {
+	
+	from {
+		
+		-ms-transform: scale(2) rotate(0deg);
+		
+	}
+	
+	to {
+		
+		-ms-transform: scale(2) rotate(360deg);
+		
+	}
+	
+}
+
+@-o-keyframes grow {
+	
+	from {
+		
+		-o-transform: scale(1);
+		
+	}
+	
+	to {
+		
+		-o-transform: scale(2) rotate(180deg);
+		
+	}
+	
+}
+
+@-o-keyframes spin {
+	
+	from {
+		
+		-o-transform: scale(2) rotate(0deg);
+		
+	}
+	
+	to {
+		
+		-o-transform: scale(2) rotate(360deg);
+		
+	}
+	
+}
+
+a {
+	
+	border: none;
+	
+	color: #8a97ff;
+	
+	font-weight: bold;
+	
+	text-decoration: none;
+	
+}
+
+a:focus {
+	
+	outline: none;
+	
+}
+
+a:hover {
+	
+	color: #5836E0;
+	
+}
+
+body {
+	
+	background: #dddddd;
+	
+	color: #111111;
+	
+	font-family: Verdana, Geneva, sans-serif;
+	
+}
+
+/*
+div.info {
+	
+    	background: #FFD9B3;
+    	
+    	border: 1px solid #FF8000;
+    	
+    	font-size: 12px;
+    	
+    	margin: 0 auto 15px;
+    	
+    	padding: 5px;
+    	
+    	text-align: center;
+    	
+    	width: 286px;
+	
+}
+*/
+
+img {
+	
+	border: none;
+	
+}
+
+.radial_div_item img:hover {
+	
+    animation: spin 1s infinite linear, grow .5s 1 linear;
+	
+	-webkit-animation: spin 1s infinite linear, grow .5s 1 linear;
+    
+	-moz-animation: spin 1s infinite linear, grow .5s 1 linear;
+    
+	-ms-animation: spin 1s infinite linear, grow .5s 1 linear;
+    
+	-o-animation: spin 1s infinite linear, grow .5s 1 linear;
+	
+}
+
+.radial_div_item img,
+.radial_div_item img:active,
+.radial_div_item img:focus,
+.radial_div_item img:hover {
+	
+	outline: none;
+	
+}
+
+label {
+	
+	font-weight: bold;
+	
+}
+
+p {
+	
+	margin: 0 0 20px;
+	
+}
+
+span.link {
+	/*
+	color: #0000FF;
+	
+	text-decoration: underline;
+	*/
+	
+	font-size: 12px;
+	
+	font-weight: bold;
+	
+}
+
+#contact {
+	
+    height: auto !important;
+    /*left: -484px !important;*/
+	padding: 30px;
+    top: 10px !important;
+    width: 350px !important;
+	z-index: 1;
+	
+}
+	
+	#contact .title {
+		
+	}
+		
+.box {
+    background: #FFFFFF !important;
+	border: 10px solid #333333;
+	border-radius: 20px !important;
+	box-shadow: 2px 2px 5px #666666;
+	color: #333333;
+	height: 0;
+	left: 0;
+	margin-left: 0;
+	position:absolute;
+	text-align: justify;
+	top: 0;
+	width: 0;
+}
+	
+	#contact,
+	.box.hidden {
+		
+		margin-left: -2000px;
+		
+	}
+
+noscript .box {
+	margin: 0 auto;
+    position: static;
+}
+
+.shown {
+	margin-left: 0 !important;
+}
+
+	#info {
+		
+		position: relative;
+    	
+		top: 30px;
+		
+	}
+	
+	/*
+			
+		#info .box1 {
+			
+			float: left;
+			
+			margin-right: 30px;
+			
+		}
+			
+		#info .box2 {
+			
+			float: right;
+			
+			margin-left: 30px;
+			
+		}
+	
+		#info .call {
+			
+			font-weight: bold;
+			
+			margin-top: 10px;
+			
+		}
+		
+		#info .email {
+			
+			font-weight: bold;
+			
+		}
+		
+		#info .name {
+			
+			font-weight: bold;
+			
+			margin-top: 20px;
+			
+			text-decoration: underline;
+			
+		}
+	
+		#info .number {
+			
+			font-weight: bold;
+			
+		}
+		
+			#info .number a {
+				
+				color: #a1ff68;
+				
+			}
+	
+		
+			#info .number a:hover {
+				
+				color: #59ba1f;
+				
+			}
+	
+		#info .role {
+			
+			font-style: italic;
+			
+		}
+		
+*/
+
+#content {
+    height: 510px;
+    left: 50%;
+    margin-left: -185px;
+    margin-top: -255px;
+    position: absolute;
+    top: 50%;
+    width: 370px;
+}
+
+/*
+#content  {
+	/*
+	height: 300px;
+	
+	left: 50%;
+	
+	margin: -50px 0 0 -175px;
+	
+	position: absolute;
+	
+	text-align: center;
+	
+	top: 30%;
+	
+	width: 400px;
+	*/
+/*}
+*/
+
+#donate {
+	
+	
+	
+}
+
+#footer .right {
+	
+	bottom: 0;
+	
+	position: absolute;
+	
+	right: 0;
+	
+}
+
+#header {
+	
+	position: relative;
+	
+	font-size: 12px;
+
+	font-style: italic;
+
+	position: relative;
+	
+	text-align: right;
+	
+	width: 100%;
+	
+}
+
+	#header .left {
+	
+		left: 5px;
+		
+		position: absolute;
+	
+		top: 5px;
+			
+	}
+
+	#header .right {
+		
+		position: absolute;
+		
+		right: 5px;
+		
+		top: 5px;
+		
+	}
+
+#links {
+	
+	font-size: 14px;
+	
+	margin-top: 20px;
+	
+}
+
+#links .info {
+	
+	font-size: 12px;
+	
+	margin-top: 3px;
+	
+}
+
+#menu {
+	
+	bottom: 5px;
+	
+	margin: auto;
+	
+	width: 278px;
+	
+}
+
+#menu_container {
+	
+	margin: auto;
+	
+}
+	
+	.jqDockLabel .jqDockLabelLink {
+		
+		color: black !important;
+		
+	}
+
+#plus {
+	
+	position: absolute;
+	
+	top: -2px;
+	
+	left: 91px;
+	
+}
+	
+#symbol {
+	
+	margin-bottom: 10px;
+	
+}
+
+.company {
+	
+	color: #005500;
+	
+	display: block;
+	
+	font-family: Scanlines;
+	
+	font-size: 40px;
+	
+	font-weight: normal;
+	
+	margin-left: 30px;
+	
+	text-shadow: 3px 1px 10px rgba(0, 255, 0, 1);
+	
+}
+
+.motto {
+	
+	color: #FFFFFF;
+	
+	font-family: Rounded;
+	
+	font-size: 28px;
+	
+	font-style: italic;
+	
+	font-weight: normal;
+	
+	margin-top: 2px;
+	
+	text-shadow: 3px 1px 10px #3C71FB;
+	
+}
+
+.tooltip {
+	
+	color:#fff;	
+	display:none;
+	background:transparent url(../img/black_arrow.png) no-repeat;
+	font-size:11px;
+	height:59px;
+	width:170px;
+	margin-top: 3px;
+	padding: 15px 10px 0 0;
+	text-align: center;
+	
+}
+
+.tooltip.bottom {
+	background:url(../img/black_arrow_bottom.png) no-repeat;
+	margin: 35px 0 0 0;
+	padding-top: 30px;
+}

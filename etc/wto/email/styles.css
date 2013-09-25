@@ -1,0 +1,275 @@
+body {
+	background-color:#F7FAFF;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+#Table_01 {
+    height: 850px;
+    left: 50%;
+    margin-left: -325px;
+    position: absolute;
+    top: 0;
+    width: 650px;
+}
+#Email-01_ {
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 650px;
+}
+#Email-02_ {
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    width: 13px;
+}
+#logo_ {
+    height: 68px;
+    left: 13px;
+    position: absolute;
+    top: 9px;
+    width: 314px;
+}
+#Email-04_ {
+    height: 15px;
+    left: 327px;
+    position: absolute;
+    top: 9px;
+    width: 323px;
+}
+#Email-05_ {
+    height: 53px;
+    left: 0;
+    position: absolute;
+    top: 24px;
+    width: 13px;
+}
+#Email-06_ {
+    height: 24px;
+    left: 327px;
+    position: absolute;
+    top: 24px;
+    width: 323px;
+}
+#Email-07_ {
+    height: 29px;
+    left: 327px;
+    position: absolute;
+    top: 48px;
+    width: 39px;
+}
+#facebook_ {
+    height: 22px;
+    left: 366px;
+    position: absolute;
+    top: 48px;
+    width: 83px;
+}
+#Email-09_ {
+    height: 29px;
+    left: 449px;
+    position: absolute;
+    top: 48px;
+    width: 9px;
+}
+#twitter_ {
+    height: 22px;
+    left: 458px;
+    position: absolute;
+    top: 48px;
+    width: 76px;
+}
+#Email-11_ {
+    height: 29px;
+    left: 534px;
+    position: absolute;
+    top: 48px;
+    width: 7px;
+}
+#linkedin_ {
+    height: 22px;
+    left: 541px;
+    position: absolute;
+    top: 48px;
+    width: 85px;
+}
+#Email-13_ {
+    height: 29px;
+    left: 626px;
+    position: absolute;
+    top: 48px;
+    width: 24px;
+}
+#Email-14_ {
+    height: 7px;
+    left: 366px;
+    position: absolute;
+    top: 70px;
+    width: 83px;
+}
+#Email-15_ {
+    height: 7px;
+    left: 458px;
+    position: absolute;
+    top: 70px;
+    width: 76px;
+}
+#Email-16_ {
+    height: 7px;
+    left: 541px;
+    position: absolute;
+    top: 70px;
+    width: 85px;
+}
+#Email-17_ {
+    height: 457px;
+    left: 0;
+    position: absolute;
+    top: 77px;
+    width: 24px;
+}
+#Email-18_ {
+    height: 25px;
+    left: 24px;
+    position: absolute;
+    top: 77px;
+    width: 602px;
+}
+#Email-19_ {
+    height: 457px;
+    left: 626px;
+    position: absolute;
+    top: 77px;
+    width: 24px;
+}
+#Email-20_ {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 408px;
+    left: 24px;
+    position: absolute;
+    top: 102px;
+    width: 602px;
+}
+#Email-21_ {
+    height: 24px;
+    left: 24px;
+    position: absolute;
+    top: 510px;
+    width: 602px;
+}
+#Email-22_ {
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 534px;
+    width: 650px;
+}
+#Email-23_ {
+    height: 1754px;
+    left: 0;
+    position: absolute;
+    top: 546px;
+    width: 11px;
+}
+#footer-link_ {
+    height: 59px;
+    left: 11px;
+    position: absolute;
+    top: 546px;
+    width: 626px;
+}
+#Email-25_ {
+    height: 1754px;
+    left: 637px;
+    position: absolute;
+    top: 546px;
+    width: 13px;
+}
+#Email-26_ {
+    height: 8px;
+    left: 11px;
+    position: absolute;
+    top: 605px;
+    width: 626px;
+}
+#Email-27_ {
+    height: 94px;
+    left: 11px;
+    position: absolute;
+    top: 613px;
+    width: 267px;
+}
+#logoletter_ {
+    height: 94px;
+    left: 278px;
+    position: absolute;
+    top: 613px;
+    width: 94px;
+}
+#Email-29_ {
+    height: 94px;
+    left: 372px;
+    position: absolute;
+    top: 613px;
+    width: 265px;
+}
+#Email-30_ {
+    height: 1593px;
+    left: 11px;
+    position: absolute;
+    top: 707px;
+    width: 36px;
+}
+#Email-31_ {
+    height: 104px;
+    left: 47px;
+    position: absolute;
+    top: 707px;
+    width: 559px;
+}
+#Email-32_ {
+    height: 1593px;
+    left: 606px;
+    position: absolute;
+    top: 707px;
+    width: 31px;
+}
+#Email-33_ {
+    height: 1489px;
+    left: 47px;
+    position: absolute;
+    top: 811px;
+    width: 559px;
+}
+
+.blue {
+	color: #1C2E52;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.green {
+	color: #006600;
+}
+
+.main-text {
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+.red {
+	color: #FF0000;
+}
+
+.underline {
+	text-decoration: underline;
+}

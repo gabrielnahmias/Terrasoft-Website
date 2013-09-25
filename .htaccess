@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ts\.x10\.mx$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ts\.x10\.mx$
+RewriteRule ^/?$ "http\:\/\/terrasoft\.x10\.mx\/" [R=301,L]
+
+Options +FollowSymLinks

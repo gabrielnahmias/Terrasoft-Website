@@ -1,0 +1,248 @@
+a {
+	
+	border: none;
+	
+	color: #8a97ff;
+	
+	font-weight: bold;
+	
+	text-decoration: none;
+	
+}
+
+a:hover {
+	
+	color: #5836E0;
+	
+}
+
+body {
+	
+	background: #ffffff;
+	
+	color: #111111;
+	
+	font-family: Verdana, Geneva, sans-serif;
+	
+	padding-bottom: 500px;
+	
+}
+
+img {
+	
+	border: none;
+		
+}
+
+#contact {
+	
+	font-size: 14px;
+	
+	margin-top: 40px;
+	
+}
+	
+	#contact .title {
+		
+		font-weight: bold;
+		
+	}
+		
+	#info {
+		
+	}
+			
+		#info .box1 {
+			
+			float: left;
+			
+			margin-right: 30px;
+			
+		}
+			
+		#info .box2 {
+			
+			float: right;
+			
+			margin-left: 30px;
+			
+		}
+	
+		#info .call {
+			
+			font-weight: bold;
+			
+			margin-top: 10px;
+			
+		}
+		
+		#info .email {
+			
+			font-weight: bold;
+			
+		}
+		
+		#info .name {
+			
+			font-weight: bold;
+			
+			margin-top: 20px;
+			
+			text-decoration: underline;
+			
+		}
+	
+		#info .number {
+			
+			font-weight: bold;
+			
+		}
+		
+			#info .number a {
+				
+				color: #a1ff68;
+				
+			}
+	
+		
+			#info .number a:hover {
+				
+				color: #59ba1f;
+				
+			}
+	
+		#info .role {
+			
+			font-style: italic;
+			
+		}
+
+#content {
+	
+	height: auto;
+	
+	left: 50%;
+	
+	margin: -100px 0 0 -175px;
+	
+	position: absolute;
+	
+	text-align: center;
+	
+	top: 30%;
+	
+	width: 400px;
+
+}
+
+#donate {
+	
+	
+	
+}
+
+#social {
+	
+	width: 84px;
+	
+}
+
+#footer .right {
+	
+	bottom: 0;
+	
+	position: absolute;
+	
+	right: 0;
+	
+}
+
+#header {
+	
+	position: relative;
+	
+	font-size: 12px;
+
+	font-style: italic;
+
+	position: relative;
+	
+	text-align: right;
+	
+	width: 100%;
+	
+}
+
+	#header .left {
+	
+		left: 5px;
+		
+		position: absolute;
+	
+		top: 5px;
+			
+	}
+
+	#header .right {
+		
+		position: absolute;
+		
+		right: 5px;
+		
+		top: 5px;
+		
+	}
+
+#links {
+	
+	font-size: 14px;
+	
+	margin-top: 20px;
+	
+}
+
+#links .info {
+	
+	font-size: 12px;
+	
+	margin-top: 3px;
+	
+}
+
+#motto {
+	
+	font-size: 14px;
+	
+	font-style: italic;
+	
+	font-weight: bold;
+	
+	margin-top: 5px;
+	
+}
+
+#plus {
+	
+	position: absolute;
+	
+	top: -2px;
+	
+	left: 91px;
+	
+}
+
+#statement {
+	
+	margin-top: 10px;
+	
+}
+
+	#statement .company {
+		
+		display: block;
+		
+		font-size: 20px;
+		
+		font-weight: bold;
+		
+	}

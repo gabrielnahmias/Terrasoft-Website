@@ -1,0 +1,48 @@
+[31-Jul-2012 11:11:48] PHP Notice:  Undefined index: host in /home/tsoft/public_html/prj/webcmd/check.php on line 41
+[31-Jul-2012 11:11:50] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 20
+[31-Jul-2012 11:12:13] PHP Notice:  Undefined index: host in /home/tsoft/public_html/prj/webcmd/check.php on line 41
+[31-Jul-2012 11:12:34] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 20
+[31-Jul-2012 11:13:12] PHP Notice:  Undefined index: host in /home/tsoft/public_html/prj/webcmd/check.php on line 44
+[31-Jul-2012 11:13:23] PHP Notice:  Undefined index: host in /home/tsoft/public_html/prj/webcmd/check.php on line 44
+[31-Jul-2012 11:13:26] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 20
+[31-Jul-2012 11:13:33] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 20
+[31-Jul-2012 11:13:44] PHP Notice:  Undefined index: host in /home/tsoft/public_html/prj/webcmd/check.php on line 44
+[31-Jul-2012 11:13:47] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 20
+[31-Jul-2012 11:14:04] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 20
+[31-Jul-2012 11:14:08] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 20
+[31-Jul-2012 11:29:42] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.140:80 (Network is unreachable) in /home/tsoft/public_html/prj/webcmd/check.php on line 34
+[31-Jul-2012 11:29:45] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 75.66.61.141:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 34
+[31-Jul-2012 11:29:45] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 34
+[31-Jul-2012 11:29:50] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 34
+[31-Jul-2012 11:29:50] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 75.66.61.141:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 34
+[31-Jul-2012 11:29:50] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.140:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 34
+[31-Jul-2012 11:30:19] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Network is unreachable) in /home/tsoft/public_html/prj/webcmd/check.php on line 12
+[31-Jul-2012 11:30:25] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 75.66.61.141:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 12
+[31-Jul-2012 11:30:25] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.140:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 12
+[31-Jul-2012 11:31:38] PHP Notice:  Undefined variable: res in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:38] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:38] PHP Warning:  exec() has been disabled for security reasons in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:38] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 11
+[31-Jul-2012 11:31:38] PHP Notice:  Undefined variable: res in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:38] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:38] PHP Warning:  exec() has been disabled for security reasons in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:38] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 11
+[31-Jul-2012 11:31:38] PHP Notice:  Undefined variable: res in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:38] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:38] PHP Warning:  exec() has been disabled for security reasons in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:38] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 11
+[31-Jul-2012 11:31:52] PHP Notice:  Undefined variable: res in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:52] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:52] PHP Warning:  exec() has been disabled for security reasons in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:52] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 11
+[31-Jul-2012 11:31:53] PHP Notice:  Undefined variable: res in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:53] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:53] PHP Warning:  exec() has been disabled for security reasons in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:53] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 11
+[31-Jul-2012 11:31:53] PHP Notice:  Undefined variable: res in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:53] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:53] PHP Warning:  exec() has been disabled for security reasons in /home/tsoft/public_html/prj/webcmd/check.php on line 9
+[31-Jul-2012 11:31:53] PHP Notice:  Undefined variable: rval in /home/tsoft/public_html/prj/webcmd/check.php on line 11
+[31-Jul-2012 11:35:13] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 75.66.61.141:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 12
+[31-Jul-2012 11:35:13] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.36:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 12
+[31-Jul-2012 11:35:13] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to 10.1.10.140:80 (Connection timed out) in /home/tsoft/public_html/prj/webcmd/check.php on line 12
