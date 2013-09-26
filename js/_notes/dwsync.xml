@@ -4,8 +4,10 @@
 <file name="scripts.js" server="ftp.terrasoft.x10.mx/public_html/" local="130049304982283551" remote="130069221600000000" Dst="1" />
 <file name="buzz.js" server="ftp.terrasoft.x10.mx/public_html/" local="130049305287561012" remote="130069221600000000" Dst="1" />
 <file name="modernizr.js" server="ftp.terrasoft.x10.mx/public_html/" local="130049305118231327" remote="130069221600000000" Dst="1" />
-<file name="buzz.js" server="ftp.tsoft.x10.mx" local="130128458400000000" remote="130183824000000000" Dst="2" />
+<file name="buzz.js" server="ftp.tsoft.x10.mx" local="130246366678422880" remote="130246366800000000" Dst="2" />
 <file name="jquery-1.6.2.js" server="ftp.tsoft.x10.mx" local="130128458400000000" remote="130183824000000000" Dst="2" />
 <file name="modernizr.js" server="ftp.tsoft.x10.mx" local="130128458400000000" remote="130183824000000000" Dst="2" />
-<file name="scripts.js" server="ftp.tsoft.x10.mx" local="130245607021226287" remote="130245606600000000" Dst="2" />
+<file name="scripts.js" server="ftp.tsoft.x10.mx" local="130246369614150794" remote="130246369200000000" Dst="2" />
+<file name="Console.min.js" server="ftp.tsoft.x10.mx" local="130239431810985522" remote="130246346400000000" Dst="2" />
+<file name="buzz.min.js" server="ftp.tsoft.x10.mx" local="130246357850817970" remote="130246367400000000" Dst="2" />
 </dwsync>
