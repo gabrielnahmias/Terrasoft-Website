@@ -22,13 +22,15 @@
     <meta property="fb:admins" content="100000142903767" />
     
     <!-- <script language="javascript" src="//apis.google.com/js/plusone.js" type="text/javascript"></script> -->
-    <script language="javascript" type="text/javascript" src="//code.jquery.com/jquery-latest.js"></script><script language="javascript" src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	<script language="javascript" src="http://cdn.jquerytools.org/1.2.7/all/jquery.tools.min.js" type="text/javascript"></script>
-    <script language="javascript" src="http://code.jquery.com/ui/1.9.0-rc.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/Console.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-latest.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<!--<script src="http://cdn.jquerytools.org/1.2.7/all/jquery.tools.min.js" type="text/javascript"></script>-->
+    <script src="http://code.jquery.com/ui/1.9.0-rc.1/jquery-ui.min.js" type="text/javascript"></script>
     
-	<script language="javascript" src="js/modernizr.js" type="text/javascript"></script>
-	<script language="javascript" src="js/buzz.js" type="text/javascript"></script>
-	<script language="javascript" src="js/scripts.js" type="text/javascript"></script>
+	<script src="js/modernizr.js" type="text/javascript"></script>
+	<script src="js/buzz.min.js" type="text/javascript"></script>
+	<script src="js/scripts.js" type="text/javascript"></script>
     
     <!--
     
