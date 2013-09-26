@@ -61,6 +61,9 @@ $( function() {
 	
 	var bShown = false;
 	
+	// Comment to enabled debuggin.
+	//Console.setOption("enabled", false);
+	
 	function contactWin() {
 		
 		var $Contact = $("#contact");
@@ -106,38 +109,44 @@ $( function() {
 	
 	if (bSounds) {
 		
-		var sDir = "etc/mp3/";
+		var sDir = "etc/mp3/",
+			oLeave = new buzz.sound(sDir + 'leave.mp3'),
+			oSounds = [
+				new buzz.sound(sDir + 'woop1.mp3'),
+				new buzz.sound(sDir + 'woop2.mp3'),
+				new buzz.sound(sDir + 'woop3.mp3'),
+				new buzz.sound(sDir + 'woop4.mp3'),
+				new buzz.sound(sDir + 'woop5.mp3')				
+			];
 		
-		var oLeave = new buzz.sound(sDir + 'leave.mp3');
-		
-		var oSounds = [
-			
-			new buzz.sound(sDir + 'woop1.mp3'),
-			new buzz.sound(sDir + 'woop2.mp3'),
-			new buzz.sound(sDir + 'woop3.mp3'),
-			new buzz.sound(sDir + 'woop4.mp3'),
-			new buzz.sound(sDir + 'woop5.mp3')
-			
-		];
-		
-		function ew() {
-			
+		function ew() {			
 			oLeave.play();
-			
+			outputVars(sDir, oSounds, oLeave);
+		}
+		
+		function outputVars() {
+			var args;
+			if (typeof arguments !== 'undefined')
+				// Create array out of arguments.
+				args = Array.prototype.slice.call(arguments, 0);
+			else
+				// Default vars.
+				args = [sDir, oSounds, oLeave];
+			// Output.
+			Console.debug("%cSound—associated Variables:%c ", "font-weight: bold", "font-weight: normal");
+			Console.debug(args);
 		}
 		
 		function woop() {
-			
 			//buzz.all().stop();
-			
 			oSounds[ rndrng(0, 4) ].play();
-			
+			//outputVars();
 		}
 		
+		// Add noises.
 		$('.radial_div_item img').each( function(i) {
-			
 			$(this).focus(woop).blur(ew).mouseenter(woop).mouseleave(ew);
-			
+			//outputVars();
 		} );
 		
 	}
